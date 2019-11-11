@@ -1,0 +1,27 @@
+--CREATE PROJECT
+laravel new 'name-proyect' CRUD or composer create-project
+
+--START SERVER
+php artisan serve
+
+--CREATE DATABASE
+--CONF. FILE .env
+
+--CREATE MIGRATION TABLE/S
+php artisan make:migration create_name-table_table
+
+--MIGRATE
+php artisan migrate
+
+--CREATE MODEL
+php artisan make:model name-model
+
+--CREATE CONTROLLER
+php artisan make:controller NameController
+
+--INCLUDE CDN FILES
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
